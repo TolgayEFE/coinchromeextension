@@ -1,0 +1,66 @@
+/*
+.td-change24h span.text-danger:before {
+    display:inline-block;
+    height:32px;
+    width:32px;
+    margin-right: 5px;
+    content: "";
+    background:url("https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/apple/271/down-arrow_2b07-fe0f.png") no-repeat 0 0;
+    background-size: 32px 32px;
+ }
+
+ .td-change24h span.text-green:before{
+    display:inline-block;
+    height:32px;
+    width:32px;
+    margin-right: 5px;
+    content: "";
+    background:url("https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/apple/271/up-arrow_2b06-fe0f.png") no-repeat 0 0;
+    background-size: 32px 32px;
+
+ }
+
+ .td-change24h span.text-green.neutral:before{
+    display:inline-block;
+    height:32px;
+    width:32px;
+    margin-right: 5px;
+    content: "";
+    background:url("https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/apple/271/left-right-arrow_2194-fe0f.png") no-repeat 0 0;
+    background-size: 32px 32px;
+ }
+*/
+
+.downArrow:after {
+    display:block;
+    float: right;
+    height:32px;
+    width:32px;
+    margin-right: 5px;
+    content: "";
+    background:url("https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/apple/271/down-arrow_2b07-fe0f.png") no-repeat 0 0;
+    background-size: 32px 32px;
+ }
+
+ .upArrow:after{
+    display:block;
+    float: right;
+    height:32px;
+    width:32px;
+    margin-right: 5px;
+    content: "";
+    background:url("https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/apple/271/up-arrow_2b06-fe0f.png") no-repeat 0 0;
+    background-size: 32px 32px;
+
+ }
+
+ .neutralArrow:after{
+    display:block;
+    float: right;
+    height:32px;
+    width:32px;
+    margin-right: 5px;
+    content: "";
+    background:url("https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/apple/271/left-right-arrow_2194-fe0f.png") no-repeat 0 0;
+    background-size: 32px 32px;
+ }
